@@ -30,7 +30,7 @@ Dialog {
             spacing: Theme.paddingLarge
             width: authorizeDialog.width
 
-            PageHeader { title: qsTr("Welcome") }
+            PageHeader { title: qsTr("Welcome to Depecher") }
 
             Label{
                 anchors { left: parent.left; right: parent.right; leftMargin: Theme.paddingMedium; rightMargin: Theme.paddingMedium }
