@@ -793,7 +793,7 @@
     </message>
     <message>
         <source>Daemon settings</source>
-        <translation>Ajustes del demonio</translation>
+        <translation>Demonio</translation>
     </message>
     <message>
         <source>Logging out</source>
@@ -916,7 +916,7 @@
     </message>
     <message>
         <source>Wait for the message via %1 containing the activation code and press %2</source>
-        <translation>Espera el mensaje de %1 con el código de activación y presionar %2</translation>
+        <translation>Esperar el mensaje de %1 con el código de activación y presionar %2</translation>
     </message>
     <message>
         <source>recovery code sent to %1</source>
@@ -932,7 +932,7 @@
     </message>
     <message>
         <source>Enter password</source>
-        <translation>Introducir contraseña</translation>
+        <translation>Contraseñas</translation>
     </message>
     <message>
         <source>Authentication state</source>
@@ -971,15 +971,15 @@
     </message>
     <message>
         <source>Leave channel</source>
-        <translation>Dejar canal</translation>
+        <translation>Salir del canal</translation>
     </message>
     <message>
         <source>Join channel</source>
-        <translation>Unirse a canal</translation>
+        <translation>Entrar al canal</translation>
     </message>
     <message>
         <source>Leaving</source>
-        <translation>Dejando</translation>
+        <translation>Saliendo</translation>
     </message>
     <message>
         <source>Open channel</source>
@@ -987,7 +987,7 @@
     </message>
     <message>
         <source>Username</source>
-        <translation>Nombre de usuario</translation>
+        <translation>Usuario</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -1007,7 +1007,7 @@
     </message>
     <message>
         <source>Search</source>
-        <translation type="unfinished">Buscar</translation>
+        <translation>Buscar</translation>
     </message>
 </context>
 <context>
@@ -1083,7 +1083,7 @@
     </message>
     <message>
         <source>Wait logging out</source>
-        <translation>Espera cierre de sesión</translation>
+        <translation>Espera el cierre de sesión</translation>
     </message>
     <message>
         <source>Wait closing</source>
