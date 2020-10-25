@@ -285,7 +285,7 @@ Drawer {
                 }
                 IconButton {
                     id:stickerButton
-                    icon.source: "qrc:/icons/icon-m-sticker.png"
+                    icon.source: "///icons/icon-m-sticker.png"
                     highlighted: false
                     onClicked: {
                         if(!attachDrawer.opened)
@@ -556,7 +556,7 @@ Drawer {
             }
             IconButton {
                 id: sendButton
-                icon.source: "image://theme/icon-m-sailfish"
+                icon.source: "image://theme/icon-m-send"
                 highlighted: false
                 width: visible ? Theme.itemSizeMedium : 0
                 visible: !settingsBehavior.sendByEnter || reply_id == "-1"
