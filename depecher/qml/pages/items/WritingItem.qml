@@ -556,7 +556,7 @@ Drawer {
             }
             IconButton {
                 id: sendButton
-                icon.source: "image://theme/icon-m-message"
+                icon.source: "image://theme/icon-m-sailfish"
                 highlighted: false
                 width: visible ? Theme.itemSizeMedium : 0
                 visible: !settingsBehavior.sendByEnter || reply_id == "-1"
