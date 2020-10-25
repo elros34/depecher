@@ -37,7 +37,7 @@ UsersModel *UsersModel::instance()
 QString UsersModel::getChatTitle(const qint64 chatId)
 {
     if (!m_chats.contains(chatId))
-        return tr("Uknown chat");
+        return QObject::tr("Uknown chat");
 
     return QString::fromStdString(m_chats[chatId]->title_);
 }
@@ -103,7 +103,7 @@ QVariantMap UsersModel::getChatType(const qint64 chatId)
 QString UsersModel::getUserFirstName(const int userId)
 {
     if (!m_users.contains(userId))
-        return tr("Unknown user");
+        return QObject::tr("Unknown user");
 
     return QString::fromStdString(m_users[userId]->first_name_);
 }
@@ -119,7 +119,7 @@ QSharedPointer<profilePhoto> UsersModel::getUserPhoto(const int userId)
 QString UsersModel::getUserFullName(const int userId)
 {
     if (!m_users.contains(userId))
-        return tr("Unknown user");
+        return QObject::tr("Unknown user");
 
     return QString::fromStdString(m_users[userId]->first_name_) + " " + QString::fromStdString(
                m_users[userId]->last_name_);
@@ -128,7 +128,7 @@ QString UsersModel::getUserFullName(const int userId)
 QString UsersModel::getUsername(const int userId)
 {
     if (!m_users.contains(userId))
-        return tr("Unknown user");
+        return QObject::tr("Unknown user");
 
     return QString::fromStdString(m_users[userId]->username_);
 }
@@ -245,11 +245,11 @@ QString UsersModel::getUserStatusAsString(const QSharedPointer<UserStatus> &user
 {
     switch (userStatus->get_id()) {
     case userStatusLastMonth::ID:
-        return tr("last seen within a month");
+        return QObject::tr("last seen within a month");
     case userStatusLastWeek::ID:
-        return tr("last seen a week ago");
+        return QObject::tr("last seen a week ago");
     case userStatusRecently::ID:
-        return tr("last seen recently");
+        return QObject::tr("last seen recently");
     case userStatusOffline::ID: {
         QDateTime currentDate = QDateTime::currentDateTime();
         qint64 timestamp = static_cast<userStatusOffline *>(userStatus.data())-> was_online_;
@@ -260,24 +260,24 @@ QString UsersModel::getUserStatusAsString(const QSharedPointer<UserStatus> &user
         int hour = diffDateTime.time().hour();
         int minute = diffDateTime.time().minute();
         if (diffDays >= 7)
-            return tr("last seen") + " " + lastSeen.toString(Qt::DateFormat::DefaultLocaleShortDate);
+            return QObject::tr("last seen") + " " + lastSeen.toString(Qt::DateFormat::DefaultLocaleShortDate);
         else if (diffDays >= 1 && diffDays < 7)
-            return tr("last seen %1 days ago").arg(diffDays);
+            return QObject::tr("last seen %1 days ago").arg(diffDays);
         else {
             if (hour > 1)
-                return tr("last seen %1 hours ago").arg(hour);
+                return QObject::tr("last seen %1 hours ago").arg(hour);
             else if (hour == 1)
-                return tr("last seen %1 hour ago").arg(hour);
+                return QObject::tr("last seen %1 hour ago").arg(hour);
             else {
                 if (minute > 1)
-                    return tr("last seen %1 minutes ago").arg(minute);
+                    return QObject::tr("last seen %1 minutes ago").arg(minute);
                 else
-                    return tr("last seen %1 minute ago").arg(minute);
+                    return QObject::tr("last seen %1 minute ago").arg(minute);
             }
         }
     }
     case userStatusOnline::ID:
-        return tr("online");
+        return QObject::tr("online");
         break;
     case userStatusEmpty::ID:
     default:
