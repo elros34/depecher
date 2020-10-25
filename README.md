@@ -30,5 +30,5 @@ To build this app required:
 
 
 #### Icons & wallpapers
-sticker-smiled is GPLv3
-Tele-wallpaper is GPLv3
+ - sticker-smiled is GPLv3
+ - Tele-wallpaper is GPLv3
