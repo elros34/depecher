@@ -29,3 +29,6 @@ To build this app required:
 2. APP_ID and APP_HASH changed in tdlibjson_wrapper.pro
 
 
+#### Icons & wallpapers
+sticker-smiled is GPLv3
+Tele-wallpaper is GPLv3
