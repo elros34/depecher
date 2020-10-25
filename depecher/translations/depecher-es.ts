@@ -30,7 +30,7 @@
     </message>
     <message>
         <source>Groups in Telegram</source>
-        <translation>Grupos en Telegram</translation>
+        <translation>Grupos de Telegram</translation>
     </message>
     <message>
         <source>English speaking community</source>
@@ -62,7 +62,7 @@
     </message>
     <message>
         <source>- Mute/unmute chats</source>
-        <translation>- Silenciar/No silenciar conversaciones</translation>
+        <translation>- Silenciar/No silenciar charlas</translation>
     </message>
     <message>
         <source>- View photos</source>
@@ -74,7 +74,7 @@
     </message>
     <message>
         <source>- View/Send stickers</source>
-        <translation>- Ver/Enviar stickers</translation>
+        <translation>- Ver/Enviar pegatinas</translation>
     </message>
     <message>
         <source>- Manage stickers from chat</source>
@@ -82,7 +82,7 @@
     </message>
     <message>
         <source>- Uploading/Downloading photos/docs</source>
-        <translation>- Subiendo/Bajando fotos/documentos</translation>
+        <translation>- Subir/Bajar fotos/documentos</translation>
     </message>
     <message>
         <source>- Receive notifications</source>
@@ -98,11 +98,11 @@
     </message>
     <message>
         <source>Here enumerated groups where you can ask any questions (general,dev etc.) related to Sailfish OS.</source>
-        <translation>Aquí se enumeran los grupos donde puedes preguntar cualquier duda (general, dev, etc.) sobre Sailfish SO.</translation>
+        <translation>Aquí se enumeran los grupos donde puedes preguntar cualquier duda en general sobre Sailfish SO.</translation>
     </message>
     <message>
         <source>This groups lives only because of community and by community around Sailfish OS.</source>
-        <translation>Estos grupos sólo viven por y para la comunidad que rodea a Sailfish SO.</translation>
+        <translation>Estos grupos son parte de la comunidad de Sailfish SO.</translation>
     </message>
     <message>
         <source>Version</source>
@@ -110,7 +110,7 @@
     </message>
     <message>
         <source>Be aware, after clicking you will join chat.</source>
-        <translation>Ten en cuenta que al pulsar te unirás a la charla.</translation>
+        <translation>Ten en cuenta que al pulsar en los canales siguientes te unirás a la charla.</translation>
     </message>
     <message>
         <source>Italian speaking community</source>
@@ -192,7 +192,7 @@
     <name>AreYouSureDialog</name>
     <message>
         <source>Is phone correct?</source>
-        <translation>¿Es correcto el teléfono?</translation>
+        <translation>¿Es correcto el número?</translation>
     </message>
     <message>
         <source>Connection status: </source>
@@ -200,7 +200,7 @@
     </message>
     <message>
         <source>To continue connection to Telegram is needed</source>
-        <translation>Es necesario para continuar con la conexión de Telegram</translation>
+        <translation>Es necesario revisar el número para continuar...</translation>
     </message>
 </context>
 <context>
@@ -268,7 +268,7 @@
     </message>
     <message>
         <source>Country Code</source>
-        <translation>Código de país</translation>
+        <translation>Código de país:</translation>
     </message>
     <message>
         <source>Phone Number</source>
@@ -433,7 +433,7 @@
     </message>
     <message>
         <source>Unmute</source>
-        <translation>Dejar de silenciar</translation>
+        <translation>No silenciar</translation>
     </message>
     <message>
         <source>Mute</source>
@@ -453,11 +453,11 @@
     </message>
     <message>
         <source>Leave chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Salir de charla</translation>
     </message>
     <message>
         <source>Left chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Salió de charla</translation>
     </message>
 </context>
 <context>
@@ -502,18 +502,18 @@
     <message>
         <source>Join</source>
         <extracomment>Join to channel</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Aceptar</translation>
     </message>
     <message>
         <source>Join Channel: </source>
-        <translation type="unfinished"></translation>
+        <translation>Entrar al canal: </translation>
     </message>
 </context>
 <context>
     <name>JoinedDelegate</name>
     <message>
         <source>%1 joined Telegram!</source>
-        <translation>%1 se unió a Telegram</translation>
+        <translation>%1 se entró  a Telegram</translation>
     </message>
 </context>
 <context>
@@ -626,7 +626,7 @@
     <name>PicturePage</name>
     <message>
         <source>Save to gallery</source>
-        <translation>Guardar en Galería</translation>
+        <translation>Guardar a Galería</translation>
     </message>
     <message>
         <source>Image saved to gallery!</source>
@@ -645,15 +645,15 @@
     </message>
     <message>
         <source>Remove %1 stickers</source>
-        <translation>Quitar %1 pegatinas</translation>
+        <translation>Quitar %1</translation>
     </message>
     <message>
         <source>Add %1 stickers</source>
-        <translation>Añadir %1 pegatinas</translation>
+        <translation>Añadir %1</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Atrás</translation>
+        <translation>Cancelar</translation>
     </message>
 </context>
 <context>
@@ -672,7 +672,7 @@
     </message>
     <message>
         <source>Username</source>
-        <translation>Nombre de usuario</translation>
+        <translation>Usuario</translation>
     </message>
     <message>
         <source>username</source>
@@ -719,7 +719,7 @@
     </message>
     <message>
         <source>Link copied to clipboard</source>
-        <translation>Enlace copiado al portapapeles</translation>
+        <translation>Enlace copiado</translation>
     </message>
     <message>
         <source>Error</source>
@@ -777,7 +777,7 @@
     </message>
     <message>
         <source>About program</source>
-        <translation>Acerca de Depecher</translation>
+        <translation>Acerca de</translation>
     </message>
     <message>
         <source>Credits and stuff</source>
@@ -793,7 +793,7 @@
     </message>
     <message>
         <source>Daemon settings</source>
-        <translation>Ajustes de demonio</translation>
+        <translation>Ajustes del demonio</translation>
     </message>
     <message>
         <source>Logging out</source>
@@ -820,7 +820,7 @@
     </message>
     <message>
         <source>Ensure that depecher is running</source>
-        <translation>Asegúrate de que Depecher se está ejecutando</translation>
+        <translation>Asegúrate que Depecher se está ejecutando</translation>
     </message>
     <message>
         <source>Do not close until media is transfered</source>
