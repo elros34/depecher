@@ -95,7 +95,7 @@ Page {
                             }
                             Label {
                                 font.pixelSize: Theme.fontSizeTiny
-                                text: "Description"
+                                text: qsTr("Description")
                                 width:parent.width
                             }
                         }
