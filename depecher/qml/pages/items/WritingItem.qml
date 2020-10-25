@@ -285,7 +285,7 @@ Drawer {
                 }
                 IconButton {
                     id:stickerButton
-                    icon.source: "image://theme/icon-m-other"
+                    icon.source: ""qrc:/icons/icon-m-sticker.png"
                     highlighted: false
                     onClicked: {
                         if(!attachDrawer.opened)
