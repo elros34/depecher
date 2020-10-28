@@ -30,4 +30,4 @@ To build this app required:
 
 
 #### Licenses
- - sticker-smiled is made for jgibbon under [![GPLv3](https://www.gnu.org/graphics/gplv3-with-text-88x31.png)](https://www.gnu.org/licenses/gpl-3.0.html)
+ - sticker-smiled is made for jgibbon under [![GPLv3](https://www.gnu.org/graphics/gplv3-88x31.png)](https://www.gnu.org/licenses/gpl-3.0.html)
