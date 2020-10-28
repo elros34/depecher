@@ -30,5 +30,4 @@ To build this app required:
 
 
 #### Licenses
- - sticker-smiled is GPLv3
- - Tele-wallpaper is GPLv3
+ - sticker-smiled is made for jgibbon under [![GPLv3](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](https://www.gnu.org/licenses/gpl-3.0.html)
