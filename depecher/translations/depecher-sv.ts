@@ -451,6 +451,14 @@
         <source>Contacts</source>
         <translation>Kontakter</translation>
     </message>
+    <message>
+        <source>Leave chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left chat</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>DocumentView</name>
@@ -487,6 +495,18 @@
     <message>
         <source>%1 joined by invite link</source>
         <translation>%1 anslöt via inbjudningslänk</translation>
+    </message>
+</context>
+<context>
+    <name>JoinChatDialog</name>
+    <message>
+        <source>Join</source>
+        <extracomment>Join to channel</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Join Channel: </source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -985,6 +1005,10 @@ Observera att efter detta, kommer 2-faktorsauktoriseringen att inaktiveras</tran
         <source>%1 members</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Search</source>
+        <translation type="unfinished">S??k</translation>
+    </message>
 </context>
 <context>
     <name>VideoView</name>
@@ -1009,6 +1033,172 @@ Observera att efter detta, kommer 2-faktorsauktoriseringen att inaktiveras</tran
     <message>
         <source>Edit caption</source>
         <translation>Redigera bildtext</translation>
+    </message>
+</context>
+<context>
+    <name>tdlibQt::AuthenticationHandler</name>
+    <message>
+        <source>SMS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Call</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Flash call</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tdlibQt::NotificationManager</name>
+    <message>
+        <source>new messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>joined Telegram</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>unknown user</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tdlibQt::ParseObject</name>
+    <message>
+        <source>Photo</source>
+        <translation type="unfinished">Bild</translation>
+    </message>
+    <message>
+        <source>Document</source>
+        <translation type="unfinished">Dokument</translation>
+    </message>
+    <message>
+        <source>Contact</source>
+        <translation type="unfinished">Kontakt</translation>
+    </message>
+    <message>
+        <source>Sticker</source>
+        <translation type="unfinished">Sticker</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Video note</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>GIF</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Call</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Audio note</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Venue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsupported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Message content</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tdlibQt::StickerModel</name>
+    <message>
+        <source>Favorite</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recent</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tdlibQt::UsernameResolver</name>
+    <message>
+        <source>Username %1 not found</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tdlibQt::UsersModel</name>
+    <message>
+        <source>Uknown chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown user</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen within a month</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen a week ago</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen recently</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen %1 days ago</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen %1 hours ago</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen %1 hour ago</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen %1 minutes ago</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>last seen %1 minute ago</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>online</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
