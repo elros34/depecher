@@ -29,28 +29,9 @@ https://openrepos.net/content/blacksailer/depecher
  ## Build 
  
  
- - Installing dependencies
+ - tdlibjson tdlibjson-devel [rpm](https://openrepos.net/content/blacksailer/tdlibjson) package installed 
+- APP_ID and APP_HASH changed in tdlibjson_wrapper.pro
 
-Enter the sailfish os build machine (Start it from Tools/Options/Sailfish OS/Start Virtual Machine)
-
-ssh -p 2222 -i ~/SailfishOS/vmshare/ssh/private_keys/engine/mersdk mersdk@localhost
-
-- Enter the arch to use (use the arm)
-
-sb2 -m sdk-install -R -t SailfishOS-3.4.0.24-armv7hl
-    
-- Add the tdlibjson repo
-
-zypper ar http://repo.merproject.org/obs/home:/blacksailer:/branches:/home:/blacksailer/sailfish_latest_armv7hl/ tdlibsjon 
-    
-Refresh zypper repos
-
-zypper ref  
-
-- Install dependencies
-
-zypper install tdlibjson tdlibjson-devel   
- 
  
 ## Licenses
 
